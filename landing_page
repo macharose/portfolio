@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Macha Rose | Producer & Director</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <!-- Header Section -->
+    <header>
+        <div class="hero">
+            <video autoplay muted loop id="hero-video">
+                <source src="your-video.mp4" type="video/mp4">
+            </video>
+            <div class="hero-overlay">
+                <h1>Macha Rose</h1>
+                <p>Producer & Director</p>
+                <a href="#portfolio" class="cta-button">View My Work</a>
+            </div>
+        </div>
+    </header>
+
+    <!-- Portfolio Section -->
+    <section id="portfolio" class="portfolio">
+        <h2>My Work</h2>
+        <div class="projects">
+            <div class="project-item">
+                <img src="project1-thumbnail.jpg" alt="Project 1">
+                <h3>Project Title 1</h3>
+                <p>Short description of the project.</p>
+                <a href="project1.html" class="view-project">View Project</a>
+            </div>
+            <!-- Add more projects as needed -->
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section id="about" class="about">
+        <h2>About Me</h2>
+        <p>Write a compelling bio that describes your career, achievements, and philosophy as a producer and director.</p>
+        <img src="your-photo.jpg" alt="Your Photo">
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="contact">
+        <h2>Contact Me</h2>
+        <form action="mailto:your-email@example.com" method="post" enctype="text/plain">
+            <input type="text" name="name" placeholder="Your Name">
+            <input type="email" name="email" placeholder="Your Email">
+            <textarea name="message" placeholder="Your Message"></textarea>
+            <button type="submit">Send</button>
+        </form>
+    </section>
+
+    <footer>
+        <p>&copy; 2024 Your Name</p>
+    </footer>
+</body>
+</html>
